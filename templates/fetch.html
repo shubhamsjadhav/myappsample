@@ -1,0 +1,27 @@
+<body>
+<div align="center">
+<table border="1">
+<tr>
+	<th>ID </th>
+	<th>FNAME</th>
+	<th>LNAME</th>
+	<th>SEX</th>
+	<th>AGE</th>
+	<th>PERCENTAGE</th>
+	<th>TOWN</th>
+</tr>
+{% for each in data%}
+	<tr>
+	<td>{{ each[0] }}</td>
+	<td>{{ each[1] }}</td>
+	<td>{{ each[2] }}</td>
+	<td>{{ each[3] }}</td>
+	<td>{{ each[4] }}</td>
+	<td>{{ each[5] }}</td>
+	<td>{{ each[6] }}</td>
+	</tr>
+{% endfor %}
+
+</table>
+</div>
+</body>
