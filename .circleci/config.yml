@@ -7,7 +7,6 @@ orbs:
 # Orchestrate or schedule a set of jobs
 jobs:  
     steps: store_test_results
-     at: testfile.xml
 workflows:
   # Name the workflow "welcome"
   welcome:
